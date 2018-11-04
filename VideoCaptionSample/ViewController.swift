@@ -32,7 +32,7 @@ final class ViewController: UIViewController {
         legibleOutput.suppressesPlayerRendering = true
         videoPlayerItem.add(legibleOutput)
 
-        // ビデオを再生するビューを設定する
+        // 動画を再生するビューを設定する
         let videoPlayerLayer = videoView.playerLayer
         videoPlayerLayer.videoGravity = .resize
         videoPlayerLayer.player = videoPlayer
